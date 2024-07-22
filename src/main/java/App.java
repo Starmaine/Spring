@@ -21,5 +21,7 @@ public class App {
         System.out.println(bean4.getName());
 
         System.out.println("Бины HelloWorld похожи: " + (bean3 == bean4));
+
+        applicationContext.close();
     }
 }
